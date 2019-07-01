@@ -7,7 +7,7 @@ Automate deployment process with a tiny script
 Edit domagic.sh according to your credentials. Run it on your local git repository or add domagic as alias such as:
 
 ```bash
-alias domagic="$HOME/domagic.sh"
+alias domagic="bash $HOME/domagic.sh"
 ```
 
 It pushes your changes, connects your server, pulls your commit, builds & runs your docker container.
