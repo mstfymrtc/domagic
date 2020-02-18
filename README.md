@@ -2,19 +2,19 @@
 
 Automate deployment process for on-prem, with a tiny script.
 
-## Usage (Automated Way)
+## Usage
 
-Edit domagic.sh according to your credentials. Run it on your local git repository or add domagic as alias such as:
+Edit domagic.sh according to your credentials. Then, there is two way to use it:
+
+1) Add domagic as alias such below, then run it on your local git repository:
 
 ```bash
 alias domagic="bash $HOME/domagic.sh"
 ```
 
-It pushes your changes, connects your server, pulls your commit, builds & runs your docker container.
+2) Move it to `/usr/local/bin` (MacOS), then run it on your local git repository.
 
-## Usage (Manual Way)
-
-You can directly use domagic_manual.sh. Against domagic.sh, domagic_manual.sh asks all credentials. Actually it's recommended to use domagic.sh because it's quite easy despite manual one.
+It pushes your changes to git, connects to your server, pulls your commit, builds & runs your docker container whenever you run it in your local git repository.
 
 
 ## Contributing
