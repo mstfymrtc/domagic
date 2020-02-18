@@ -1,6 +1,6 @@
 # domagic
 
-Automate deployment process with a tiny script
+Automate deployment process for on-prem, with a tiny script.
 
 ## Usage (Automated Way)
 
