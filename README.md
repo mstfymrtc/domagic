@@ -12,9 +12,9 @@ Edit domagic.sh according to your credentials. Then, there is two way to use it:
 alias domagic="bash $HOME/domagic.sh"
 ```
 
-2) Move it to `/usr/local/bin` (MacOS), then run it on your local git repository.
+2) Move `domagic.sh` to `/usr/local/bin` (MacOS), then run it on your local git repository.
 
-It pushes your changes to git, connects to your server, pulls your commit, builds & runs your docker container whenever you run it in your local git repository.
+It pushes your changes to git, connects to your server, pulls your commit, builds & runs your docker container whenever you run it on your local git repository.
 
 
 ## Contributing
